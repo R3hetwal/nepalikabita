@@ -1,0 +1,18 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+    <div class="container" style="background: white; padding: 20px; margin-top: 10px; border-radius: 20px;">
+        <h1>Blog About</h1>
+    </div>
+
+        {% comment %} <article class="media content-section">
+            <img class="rounded-cirlce article-img" src="{{ object.author.author_picture }}" alt="">
+            <div class="media-body">
+              <div class="article-metadata">
+                <a class="mr-2" href="#">{{ object.name }}</a>            
+              </div>
+              <p class="article-content">{{ object.bio }}</p>
+            </div>
+            <br>
+          </article> {% endcomment %}
+
+{% endblock content %}
